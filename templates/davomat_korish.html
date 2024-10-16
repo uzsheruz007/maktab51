@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ sinf.nomi }} sinfi davomati</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ sinf.nomi }} sinfi davomati</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Ism Sharif</th>
+                <th>Sana</th>
+                <th>Qatnashgan</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for davomat in davomatlar %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ davomat.oquvchi.ism_sharif }}</td>
+                <td>{{ davomat.sana }}</td>
+                <td>{{ davomat.qatnashgan|yesno:"Ha,Yo'q" }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
