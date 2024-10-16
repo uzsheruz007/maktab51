@@ -1,0 +1,53 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block content %}
+
+   <section class="bg-02-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="_head_01">
+                        <h2>Blog</h2>
+                        <p>Home<i class="fas fa-angle-right"></i><span>Blog</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- ====================== Blog Section started====================== -->
+
+     <section class="bg-04">
+        <div class="container">
+            <div class="row">
+               <div class="col-12">
+                    <div class="heading">
+                        <h2>Latest News</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt</p>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="row">
+                {% for x in Yangilik %}
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <article class="_lk_bg_sd_we">
+                            <div class="_bv_xs_we" src="{{ x.Rasm.url }}"></div>
+                          <div class="_xs_we_er">
+                            <div class="_he_w">
+                              <h3>{{ x.teacher }}</h3>
+                              <ol>
+                              </ol>
+                              <p>{{ x.messages }}</p>
+                            </div>
+                          </div>     
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

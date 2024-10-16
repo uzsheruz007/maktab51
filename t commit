@@ -1,0 +1,405 @@
+warning: in the working copy of 'templates/blog1_1.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'templates/index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/templates/blog1_1.html b/templates/blog1_1.html[m
+[1mindex 3f4b7ad..a7ea654 100644[m
+[1m--- a/templates/blog1_1.html[m
+[1m+++ b/templates/blog1_1.html[m
+[36m@@ -3,437 +3,6 @@[m
+ [m
+ {% block content %}[m
+ [m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="en">[m
+[31m-[m
+[31m-<!-- Mirrored from themewar.com/html/organia/demo/blog1.1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 08:24:03 GMT -->[m
+[31m-<head>[m
+[31m-<title>Organia - Organic Foods Store Responsive HTML5 Template</title>[m
+[31m-<meta charset="UTF-8">[m
+[31m-<meta name="viewport" content="width=device-width">[m
+[31m-[m
+[31m-<link rel="stylesheet" href="assets/css/bootstrap.css" />[m
+[31m-<link rel="stylesheet" href="assets/css/animate.css" />[m
+[31m-<link rel="stylesheet" href="assets/css/themewar-font.css" />[m
+[31m-<link rel="stylesheet" href="assets/css/organio-icon.css" />[m
+[31m-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">[m
+[31m-<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">[m
+[31m-<link rel="stylesheet" href="assets/css/nice-select.css">[m
+[31m-<link rel="stylesheet" href="assets/css/slick.css">[m
+[31m-<link rel="stylesheet" href="assets/css/lightcase.css">[m
+[31m-[m
+[31m-<link rel="stylesheet" type="text/css" href="assets/css/settings.css">[m
+[31m-<link rel="stylesheet" href="assets/css/preset.css" />[m
+[31m-<link rel="stylesheet" href="assets/css/ignore_for_wp.css" />[m
+[31m-<link rel="stylesheet" href="assets/css/theme.css" />[m
+[31m-<link rel="stylesheet" href="assets/css/responsive.css" />[m
+[31m-[m
+[31m-[m
+[31m-<link rel="icon" type="image/png" href="assets/images/favicon.png">[m
+[31m-[m
+[31m-</head>[m
+[31m-<body class="innerPage">[m
+[31m-[m
+[31m-<div class="preloader clock text-center">[m
+[31m-<div class="organiaLoader">[m
+[31m-<div class="loaderO">[m
+[31m-<span>O</span>[m
+[31m-<span>R</span>[m
+[31m-<span>G</span>[m
+[31m-<span>A</span>[m
+[31m-<span>N</span>[m
+[31m-<span>I</span>[m
+[31m-<span>A</span>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-[m
+[31m-[m
+[31m-<section class="topbar03">[m
+[31m-<div class="container largeContainer">[m
+[31m-<div class="row">[m
+[31m-<div class="col-md-6">[m
+[31m-<a class="info" href="https://www.google.com/maps"><i class="twi-store-alt1"></i>Find Store</a>[m
+[31m-<a class="info" href="https://themewar.com/cdn-cgi/l/email-protection#b8ebcdc8c8d7caccf8d7cadfd9d6d1d996dbd7d5"><i class="twi-envelope1"></i><span class="__cf_email__" data-cfemail="cb98bebbbba4b9bf8ba4b9acaaa5a2aae5a8a4a6">[email&#160;protected]</span></a>[m
+[31m-</div>[m
+[31m-<div class="col-md-6">[m
+[31m-<div class="tbaccess">[m
+[31m-<ul>[m
+[31m-<li><a href="contact.html">Contact Us</a></li>[m
+[31m-<li><a href="javascript:void(0)">Track Your Order</a></li>[m
+[31m-</ul>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</section>[m
+[31m-[m
+[31m-[m
+[31m-<section class="headerMiddle hm02">[m
+[31m-<div class="container largeContainer">[m
+[31m-<div class="row">[m
+[31m-<div class="col-xl-5 col-lg-3 col-md-4">[m
+[31m-<div class="logo">[m
+[31m-<a href="index.html"><img src="assets/images/logo.png" alt="Dgita"></a>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-<div class="col-xl-5 col-lg-6 col-md-5">[m
+[31m-<div class="search-product">[m
+[31m-<form class="d-flex" method="post" action="#">[m
+[31m-<input type="search" name="s" placeholder="1.8K Products Search. Hit enter...">[m
+[31m-<div class="search-category">[m
+[31m-<select>[m
+[31m-<option value="0">Select a Categories</option>[m
+[31m-<option value="12">Vegetable</option>[m
+[31m-<option value="19">Tomato</option>[m
+[31m-<option value="20">Caabage</option>[m
+[31m-<option value="20">Brooklyn</option>[m
+[31m-<option value="20">Onion</option>[m
+[31m-<option value="12">Fruits</option>[m
+[31m-<option value="12">Juice</option>[m
+[31m-<option value="12">Spices</option>[m
+[31m-<option value="12">Jam Jelly</option>[m
+[31m-</select>[m
+[31m-</div>[m
+[31m-</form>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-<div class="col-xl-2 col-lg-3 col-md-3">[m
+[31m-<div class="accessNav">[m
+[31m-<a class="userBtn" href="javascript:void(0);"><i class="twi-user1"></i></a>[m
+[31m-<a class="wishlistBtn" href="wishlist.html"><i class="twi-heart1"></i><span>2</span></a>[m
+[31m-<div class="shoping_cart">[m
+[31m-<a class="cartBtn" href="javascript:void(0);"><i class="twi-shopping-bag1"></i><span>2</span></a>[m
+[31m-<div class="show_cart_area">[m
+[31m-<ul class="woocommerce-mini-cart cart_list product_list_widget">[m
+[31m-<li class="woocommerce-mini-cart-item mini_cart_item">[m
+[31m-<div class="mc_item">[m
+[31m-<div class="mc_thumb">[m
+[31m-<img src="assets/images/cart/1.jpg" alt="cart">[m
+[31m-</div>[m
+[31m-<h4><a href="single-product.html">Green Bow</a></h4>[m
+[31m-<div class="pi01Price clearfix">1 x 135.00</div>[m
+[31m-<a href class="remove"><i class="twi-times2"></i></a>[m
+[31m-</div>[m
+[31m-</li>[m
+[31m-<li class="woocommerce-mini-cart-item mini_cart_item">[m
+[31m-<div class="mc_item">[m
+[31m-<div class="mc_thumb">[m
+[31m-<img src="assets/images/cart/2.jpg" alt="cart">[m
+[31m-</div>[m
+[31m-<h4><a href="single-product.html">Organic Carrot</a></h4>[m
+[31m-<div class="pi01Price clearfix">1 x 55.00</div>[m
+[31m-<a href class="remove"><i class="twi-times2"></i></a>[m
+[31m-</div>[m
+[31m-</li>[m
+[31m-</ul>[m
+[31m-<p class="woocommerce-mini-cart__total total">[m
+[31m-<strong>Subtotal:</strong>[m
+[31m-<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>172.00</bdi></span>[m
+[31m-</p>[m
+[31m-<p class="woocommerce-mini-cart__buttons buttons">[m
+[31m-<a href="cart.html" class="button wc-forward">View cart</a>[m
+[31m-<a href="cart.html" class="button checkout wc-forward">Checkout</a>[m
+[31m-</p>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</section>[m
+[31m-[m
+[31m-[m
+[31m-<header class="header03 isSticky">[m
+[31m-<div class="container largeContainer">[m
+[31m-<div class="row">[m
+[31m-<div class="col-lg-12">[m
+[31m-<div class="navBar01">[m
+[31m-<div class="all-categories-dropdown">[m
+[31m-<a class="select categoryToggle" href="javascript:void(0)">[m
+[31m-<span></span>[m
+[31m-All Categories[m
+[31m-<i class="twi-angle-down"></i>[m
+[31m-</a>[m
+[31m-<div class="categorie-list">[m
+[31m-<ul>[m
+[31m-<li><a href="shop.html"><span class="thumb"><img src="assets/images/categories/1.png" alt="staffy" /></span>Vegetables</a><span>( 30 items )</span></li>[m
+[31m-<li><a href="shop1.html"><span class="thumb"><img src="assets/images/categories/2.png" alt="staffy" /></span>Fresh Fruits</a><span>( 30 items )</span></li>[m
+[31m-<li><a href="shop2.html"><span class="thumb"><img src="assets/images/categories/3.png" alt="staffy" /></span>Beverages</a><span>( 30 items )</span></li>[m
+[31m-<li><a href="shop3.html"><span class="thumb"><img src="assets/images/categories/4.png" alt="staffy" /></span>Babies & Kids</a><span>( 30 items )</span></li>[m
+[31m-<li><a href="shop.html"><span class="thumb"><img src="assets/images/categories/5.png" alt="staffy" /></span>Frozen Foods</a><span>( 30 items )</span></li>[m
+[31m-<li><a href="shop1.html"><span class="thumb"><img src="assets/images/categories/6.png" alt="staffy" /></span>Superfoods & Greens</a><span>( 30 items )</span></li>[m
+[31m-<li><a href="shop2.html"><span class="thumb"><img src="assets/images/categories/7.png" alt="staffy" /></span>Fresh Tomatoes</a><span>( 30 items )</span></li>[m
+[31m-<li><a href="shop3.html"><span class="thumb"><img src="assets/images/categories/8.png" alt="staffy" /></span>Fresh Nut & Seed</a><span>( 30 items )</span></li>[m
+[31m-<li><a href="shop.html"><span class="thumb"><img src="assets/images/categories/9.png" alt="staffy" /></span>Fresh Organic</a><span>( 30 items )</span></li>[m
+[31m-</ul>[m
+[31m-<a class="others" href="javascript:void(0);"><span>+</span> Others</a>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-<nav class="mainMenu">[m
+[31m-<ul>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Home</a>[m
+[31m-<div class="sub-menu mega_menu">[m
+[31m-<div class="row">[m
+[31m-<div class="col-lg-4 col-md-4">[m
+[31m-<div class="showcase">[m
+[31m-<div class="showcaseThumb">[m
+[31m-<a target="_blank" href="index.html">[m
+[31m-<img src="assets/images/h1.png" alt="home">[m
+[31m-</a>[m
+[31m-</div>[m
+[31m-<h5>Home <span>01</span></h5>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-<div class="col-lg-4 col-md-4">[m
+[31m-<div class="showcase">[m
+[31m-<div class="showcaseThumb">[m
+[31m-<a target="_blank" href="index2.html">[m
+[31m-<img src="assets/images/h2.png" alt="home">[m
+[31m-</a>[m
+[31m-</div>[m
+[31m-<h5>Home <span>02</span></h5>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-<div class="col-lg-4 col-md-4">[m
+[31m-<div class="showcase">[m
+[31m-<div class="showcaseThumb">[m
+[31m-<a target="_blank" href="index3.html">[m
+[31m-<img src="assets/images/h3.png" alt="home">[m
+[31m-</a>[m
+[31m-</div>[m
+[31m-<h5>Home <span>03</span></h5>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-<div class="col-lg-4 col-md-4">[m
+[31m-<div class="showcase">[m
+[31m-<div class="showcaseThumb">[m
+[31m-<a target="_blank" href="index4.html">[m
+[31m-<img src="assets/images/h4.png" alt="home">[m
+[31m-</a>[m
+[31m-</div>[m
+[31m-<h5>Home <span>04</span></h5>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-<div class="col-lg-4 col-md-4">[m
+[31m-<div class="showcase">[m
+[31m-<div class="showcaseThumb">[m
+[31m-<a target="_blank" href="index5.html">[m
+[31m-<img src="assets/images/h5.png" alt="home">[m
+[31m-</a>[m
+[31m-</div>[m
+[31m-<h5>Home <span>05</span></h5>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-<div class="col-lg-4 col-md-4">[m
+[31m-<div class="showcase">[m
+[31m-<div class="showcaseThumb">[m
+[31m-<a href="javascript:void(0);">[m
+[31m-<img src="assets/images/coming-soon.png" alt="home">[m
+[31m-</a>[m
+[31m-</div>[m
+[31m-<h5>Coming <span>Soon</span></h5>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Shop</a>[m
+[31m-<div class="megaMenu">[m
+[31m-<div class="row">[m
+[31m-<div class="col-lg-4">[m
+[31m-<h3>Shop Pages</h3>[m
+[31m-<ul>[m
+[31m-<li><a href="shop.html">Shop Grid 01</a></li>[m
+[31m-<li><a href="shop1.html">Shop Grid 02</a></li>[m
+[31m-<li><a href="shop3.html">Shop Grid 03</a></li>[m
+[31m-<li><a href="shop2.html">Shop List</a></li>[m
+[31m-<li><a href="cart.html">Cart Page</a></li>[m
+[31m-</ul>[m
+[31m-</div>[m
+[31m-<div class="col-lg-4">[m
+[31m-<h3>Product Details</h3>[m
+[31m-<ul>[m
+[31m-<li><a href="single-product.html">Shop Details 01</a></li>[m
+[31m-<li><a href="single-product1.html">Shop Details 02</a></li>[m
+[31m-<li><a href="single-product2.html">Shop Details 03</a></li>[m
+[31m-</ul>[m
+[31m-</div>[m
+[31m-<div class="col-lg-4 noPadding">[m
+[31m-<div class="promo text-center overlay-anim">[m
+[31m-<img src="assets/images/home1/m1.jpg" alt="Organia Promo" />[m
+[31m-<div class="promoContent">[m
+[31m-<h5>New Arrivals</h5>[m
+[31m-<h3>100% Natural Fresh Juice</h3>[m
+[31m-<a href="shop.html" class="organ_btn">Shop Now<i class="twi-arrow-right1"></i></a>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">blogs</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Blog List Views</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="blog1.1.html">Left Sidebar</a></li>[m
+[31m-<li><a href="blog1.html">Right Sidebar</a></li>[m
+[31m-<li><a href="blog1.2.html">Without Sidebar</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Blog Grid Views</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="blog2.1.html">Left Sidebar</a></li>[m
+[31m-<li><a href="blog2.2.html">Right Sidebar</a></li>[m
+[31m-<li><a href="blog2.html">Without Sidebar</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li><a href="single-blog.html">Blog Details</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">pages</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="about.html">About Page</a></li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Teams</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="team1.html">Team 01</a></li>[m
+[31m-<li><a href="team2.html">Team 02</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Services</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="service.html">Service Page</a></li>[m
+[31m-<li><a href="service-single.html">Service Details</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li><a href="404.html">404 Page</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Contact</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="contact.html">Contact Without Map</a></li>[m
+[31m-<li><a href="contact2.html">Contact With Map</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-</ul>[m
+[31m-</nav>[m
+[31m-<a href="javascript:void(0);" class="menuToggler"><i class="twi-bars1"></i></a>[m
+[31m-<div class="midIconBox">[m
+[31m-<i class="twi-headset1"></i>[m
+[31m-<h5>+90 157 058 4567</h5>[m
+[31m-<p>24/7 Support</p>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</div>[m
+[31m-</header>[m
+[31m-[m
+[31m-[m
+[31m-<section class="sidebarMenu">[m
+[31m-<div class="sidebarMenuOverlay"></div>[m
+[31m-<div class="SMArea">[m
+[31m-<div class="SMAHeader">[m
+[31m-<h3>[m
+[31m-<i class="twi-bars1"></i> Menu[m
+[31m-</h3>[m
+[31m-<a href="javascript:void(0);" class="SMACloser"><i class="twi-times2"></i></a>[m
+[31m-</div>[m
+[31m-<div class="SMABody">[m
+[31m-<ul>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Home</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="index.html">Home One</a></li>[m
+[31m-<li><a href="index2.html">Home Two</a></li>[m
+[31m-<li><a href="index3.html">Home Three</a></li>[m
+[31m-<li><a href="index4.html">Home Four</a></li>[m
+[31m-<li><a href="index5.html">Home Five</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Shop</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="shop.html">Shop Grid 01</a></li>[m
+[31m-<li><a href="shop1.html">Shop Grid 02</a></li>[m
+[31m-<li><a href="shop3.html">Shop Grid 03</a></li>[m
+[31m-<li><a href="shop2.html">Shop List</a></li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Shop Details</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="single-product.html">Shop Details 01</a></li>[m
+[31m-<li><a href="single-product1.html">Shop Details 02</a></li>[m
+[31m-<li><a href="single-product2.html">Shop Details 03</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li><a href="cart.html">Cart Page</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">blogs</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Blog List Views</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="blog1.1.html">Left Sidebar</a></li>[m
+[31m-<li><a href="blog1.html">Right Sidebar</a></li>[m
+[31m-<li><a href="blog1.2.html">Without Sidebar</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li class="menu-item-has-children">[m
+[31m-<a href="javascript:void(0);">Blog Grid Views</a>[m
+[31m-<ul class="sub-menu">[m
+[31m-<li><a href="blog2.1.html">Left Sidebar</a></li>[m
+[31m-<li><a href="blog2.2.html">Right Sidebar</a></li>[m
+[31m-<li><a href="blog2.html">Without Sidebar</a></li>[m
+[31m-</ul>[m
+[31m-</li>[m
+[31m-<li><a href="
